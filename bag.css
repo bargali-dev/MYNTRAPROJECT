@@ -1,0 +1,160 @@
+*{
+  margin:0;
+  padding:0;
+}
+.product_container{
+  border: none;
+  background-color: #FAFBFC;;
+  border-radius: 5px;
+ display:flex;
+ width :600px;
+ justify-content: space-evenly;
+ margin-left : 35px;
+ padding-top: 15px;
+
+
+}
+.image_container{
+  background-color: #fff;
+  /* height :200px; */
+
+}
+.product-image{
+  height : 200px;
+}
+.info_container{
+  height : 200px;
+}
+.company_name{
+  font-size: 18px;
+  font-weight: 500;
+}
+.items_name{
+    font-size: 15px;
+    color:rgb(81, 76, 76)
+}
+.prices{
+   margin-bottom: 10px;
+}
+.original_price{
+  font-size: 18px;
+  font-weight: 700;
+  margin-right:5px;
+}
+.discounts{
+    text-decoration: line-through;
+    line-height: normal;
+    color:rgb(185, 174, 174);
+    margin-right :5px;
+}
+.offer{
+  color:rgb(62, 46, 46);
+  font-size : 18px;
+}
+.return_container{
+  margin :0;
+}
+.days{
+   font-size: 18px;
+  font-weight: 700;
+  margin-right:5px;
+}
+.return{
+  color:rgb(74, 74, 74);
+}
+.delete_container{
+  align-items:left;
+  font-size: 25px;
+  font-weight: 400;
+  margin-right:5px;
+  cursor: pointer;
+  margin-left: 60px;
+  
+}
+.final_container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+/* .firstSpan{
+  
+} */
+.secondSpan{
+  /* background-color:rgb(250, 246, 246); */
+  background-color: #FAFBFC;
+  border-radius: 3px;
+  width:250px;
+  
+}
+.price_det_container{
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+
+}
+.mrp_container{
+   display:flex;
+  justify-content: space-evenly;
+  font-size:15px;
+  font-weight: 600;
+   margin-top: 10px;
+}
+.M1{
+  margin-left: 0;
+  margin-right:80px;}
+.M2{
+  margin-left:20px;
+}
+.dis_container{
+  display:flex;
+  justify-content: space-evenly;
+  font-size:15px;
+  font-weight: 600;
+   margin-top: 10px;
+}
+.D1{margin-left: 0;
+  margin-right:50px;}
+/* .D2{} */
+.con_container{
+  color:rgb(71, 71, 70);
+  display:flex;
+  justify-content: space-evenly;
+  font-size:15px;
+  font-weight: 600;
+   margin: 10px 0;
+
+}
+.C1{ 
+  margin-right:50px;
+}
+.C2{
+  margin-left:10px;
+  margin-right: 0;
+
+}
+
+.amt_container{
+  display:flex;
+  justify-content: space-evenly;
+  font-size:15px;
+  font-weight: 600;
+   margin-top: 10px;
+  
+}
+.A1{
+  margin-left: 0;
+  margin-right:60px;
+}
+/* .A2{} */
+.order_container{
+  background-color:rgb(182, 7, 68);
+  color:#fff;
+  width : 100%;
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: 500;
+  border:none;
+  border-radius:2px;
+   margin-top: 25px;
+  
+}
